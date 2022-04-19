@@ -33,7 +33,8 @@ app.get("/about", (req, res) => {
 });
 app.get("/help", (req, res) => {
   res.render("help", {
-    answer: "Use your knowledge wisely !",
+    answer:
+      "You can go to the weather page by pressing the buttons above or you can learn a bit more about my self made weather application.You can also click on the other link that says 'learn to code' so you can learn to code too!",
     title: "Help",
     name: "Jamie Zirena",
   });
